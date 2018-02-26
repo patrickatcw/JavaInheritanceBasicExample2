@@ -46,6 +46,7 @@ public class Dog extends Animal{
     //step 17 working with move method in Animal class for this file Dog class
     //how does a dog move?
     public void walk(){
+        System.out.println("Dog.walk() called");  //message for calling method
 
     }
 

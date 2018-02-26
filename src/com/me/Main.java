@@ -14,5 +14,7 @@ public class Main {
         //step 13 using methods from animal class
         dog.eat();
 
+        dog.walk();         //checking step 17
+
     }
 }
