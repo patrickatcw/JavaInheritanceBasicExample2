@@ -13,6 +13,10 @@ public class Main {
 
         //step 13 using methods from animal class
         dog.eat();          //demonstrating inheritance
+        //printout
+        //Dog.eat() called
+       // Dog.chew() called
+        //Animal.eat() called
 
         dog.walk();         //checking step 17
 

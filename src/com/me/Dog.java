@@ -40,7 +40,7 @@ public class Dog extends Animal{
     public void eat() {
         System.out.println("Dog.eat() called");  //step 13 calling to test
         chew();                                    //step 14
-        super.eat();
+        super.eat();                                //overriding in super
     }
 
     //step 17 working with move method in Animal class for this file Dog class
