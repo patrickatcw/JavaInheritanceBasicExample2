@@ -43,4 +43,15 @@ public class Dog extends Animal{
         super.eat();
     }
 
+    //step 17 working with move method in Animal class for this file Dog class
+    //how does a dog move?
+    public void walk(){
+
+    }
+
+    public void run() {
+
+    }
+
+
 }
