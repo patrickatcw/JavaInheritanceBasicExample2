@@ -28,8 +28,10 @@ public class Animal {           //Animal is super class
     }
 
     //creating additional method
-    public void move(){
-
+    public void move(int speed){            //step 18 added int for speed param
+        //step 20 will call sppeds in printouts associated with steps 19 in dog class
+        //methods walk and run
+        System.out.println("Animal.move() called. Animal is moving at " + speed);
     }
 
     //step 6 creating getters for the above

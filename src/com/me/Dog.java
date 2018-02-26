@@ -47,12 +47,13 @@ public class Dog extends Animal{
     //how does a dog move?
     public void walk(){
         System.out.println("Dog.walk() called");  //message for calling method
+        move(5);            //step 19 from adding param int in move method in super
 
     }
 
     public void run() {
         System.out.println("Dog.run() called"); //message for calling method
-
+        move(10);           //step 19 from adding param int in move method in super
     }
 
 
