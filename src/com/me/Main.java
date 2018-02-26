@@ -24,3 +24,16 @@ public class Main {
 
     }
 }
+        //current printout
+       /* The dog is a Yorkie
+        Dog.eat() called
+        Dog.chew() called
+        Animal.eat() called
+        Dog.walk() called
+        Dog.move() called
+        Dog.moveLegs() called
+        Animal.move() called. Animal is moving at 5
+        Dog.run() called
+        Dog.move() called
+        Dog.moveLegs() called
+        Animal.move() called. Animal is moving at 10*/

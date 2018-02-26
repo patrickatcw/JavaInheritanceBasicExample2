@@ -56,5 +56,16 @@ public class Dog extends Animal{
         move(10);           //step 19 from adding param int in move method in super
     }
 
+    //step 22 created a method as to how dog moves, by moveLegs, only occur through override move
+    private void moveLegs(int speed){
+        System.out.println("Dog.moveLegs() called");
+    }
 
+    //step 21 ceate override method to come before method in super
+    @Override
+    public void move(int speed) {
+        System.out.println("Dog.move() called");
+        moveLegs(speed);
+        super.move(speed);
+    }
 }
