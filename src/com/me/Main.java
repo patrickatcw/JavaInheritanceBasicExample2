@@ -12,9 +12,11 @@ public class Main {
         System.out.println("The dog is a " + dog.getName());
 
         //step 13 using methods from animal class
-        dog.eat();
+        dog.eat();          //demonstrating inheritance
 
         dog.walk();         //checking step 17
+
+        dog.run();          //checking step 17 run method
 
     }
 }
